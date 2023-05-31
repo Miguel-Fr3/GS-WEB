@@ -3,14 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #87CEFA;
+}
 .cabecalho{
     display: flex;
     align-items: center;
-    background-color: darkgreen;
+    background-image: url('../img/header.jpeg');
 }
 .cabecalho img{
-    width: 20%;
-    height: 20%;
-    margin: -50px 0 -50px 40% ;
+    width: 15%;
+    height: 15%;
+    margin: -40px 0 -40px 43% ;
 }
