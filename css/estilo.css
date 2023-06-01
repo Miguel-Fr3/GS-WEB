@@ -4,15 +4,38 @@
     box-sizing: border-box;
 }
 body{
+    width: 100vw;
     background-color: #87CEFA;
+    font-family: 'Roboto', sans-serif;
 }
 .cabecalho{
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 10rem;
     background-image: url('../img/header.jpeg');
 }
 .cabecalho img{
-    width: 15%;
-    height: 15%;
-    margin: -40px 0 -40px 43% ;
+    width: 15rem;
+
+}
+#nav-container{
+    width: 100%;
+}
+.navegacao{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+.navegacao a{
+    text-decoration: none;
+    font-size: 1.50rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+.navegacao a:hover{
+    color: #fbfbfb;
 }
