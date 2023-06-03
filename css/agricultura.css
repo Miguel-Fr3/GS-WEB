@@ -1,0 +1,28 @@
+.conteudo h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 2.50rem;
+}
+.conteudo img{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: row;
+    width: 800px;
+    height: 500px;
+}
+.conteudo p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.25rem;
+}
+.conteudo li{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.55rem;
+    font-weight: bolder;
+}
+p.saiba {
+    text-decoration: none;
+    font-size: 2rem;
+}
