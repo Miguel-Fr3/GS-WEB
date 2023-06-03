@@ -30,68 +30,58 @@
     </div>
 
     <h1>Entre em Contato</h1>
-    <form action="processar_formulario.php" method="POST">
+
+    <form action="processar_formulario.php" method="POST" class="form">
         <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required><br><br>
+        <input type="text" id="nome" name="nome" required>
 
         <label for="sobrenome">Sobrenome:</label>
-        <input type="text" id="sobrenome" name="sobrenome" required><br><br>
+        <input type="text" id="sobrenome" name="sobrenome" required>
 
         <label for="idade">Idade:</label>
-        <input type="text" id="idade" name="idade" required><br><br>
+        <input type="text" id="idade" name="idade" required>
 
+        <div class="sexo">
         <label for="opcao">Sexo:</label>
         <select id="opcao" name="opcao" required>
             <option value="opcao0">--</option>
             <option value="opcao1">Masculino</option>
             <option value="opcao2">Feminino</option>
             <option value="opcao3">Outro</option>
-        </select><br><br>
+        </select>
+        </div>
 
         <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required><br><br>
+        <input type="email" id="email" name="email" required>
 
         <label for="telefone">Telefone:</label>
-        <input type="tel" id="telefone" name="telefone" required><br><br>
+        <input type="tel" id="telefone" name="telefone" required>
 
         <label for="assunto">Assunto:</label>
-        <input type="text" id="assunto" name="assunto" required><br><br>
+        <input type="text" id="assunto" name="assunto" required>
 
+        <div class="msg">
         <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br><br>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+        </div>
 
+        <div class="avaliacao">
+        <label for="radio" class="avalia">avaliação:</label>
+        <label for="radio1" class="avaliacao">
+            <input type="radio" id="radio1" name="radio" value="opcao1" class="avaliacao">Gostei
+        </label>
 
-        <label for="radio">avaliação:</label><br>
-        <label for="radio1">
-            <input type="radio" id="radio1" name="radio" value="opcao1">WhatsApp
-        </label><br>
+        <label for="radio2" class="avaliacao">
+            <input type="radio" id="radio2" name="radio" value="opcao2" class="avaliacao">Mais ou menos
+        </label>
 
-        <label for="radio2">
-            <input type="radio" id="radio2" name="radio" value="opcao2">Email
-        </label><br>
-
-        <label for="radio3">
-            <input type="radio" id="radio3" name="radio" value="opcao3">SMS
-        </label><br><br>
-
-
-        <label for="radio">avaliação:</label><br>
-        <label for="radio1">
-            <input type="radio" id="radio1" name="radio" value="opcao1">Gostei
-            <img src="./img/avaliacao/avaliacao_img1.png">
-        </label><br>
-
-        <label for="radio2">
-            <input type="radio" id="radio2" name="radio" value="opcao2">Mais ou menos
-            <img src="./img/avaliacao/avaliacao_img2.png">
-        </label><br>
-
-        <label for="radio3">
-            <input type="radio" id="radio3" name="radio" value="opcao3">Não gostei
-            <img src="./img/avaliacao/avaliacao_img3.jpg">
-        </label><br><br>
-
+        <label for="radio3" class="avaliacao">
+            <input type="radio" id="radio3" name="radio" value="opcao3" class="avaliacao">Não gostei
+        </label>
+    </div>
+    <div class="register">
         <input type="submit" value="Enviar">
+    </div>
     </form>
 
 
