@@ -16,7 +16,9 @@ form.form {
     border-radius: 5px;
     box-shadow: 0 2px 6px #000
   }
-  
+  form{
+    background-color: #00BFFF;
+  }
   .form label {
     display: flex;
     justify-content: center;
