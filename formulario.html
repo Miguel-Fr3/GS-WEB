@@ -24,9 +24,76 @@
             <a href="./agricultura_sustentavel.html">Agricultura sustentável</a>
             <a href="./cultivo_sustentavel.html">Cultivo sustentável</a>
             <a href="./inteligencia_artificial.html">inteligencia artificial</a>
-            <a href="./formulario.html" id="htmlS">Formulario</a>
+            <a href="./formulario.html" id="htmlS">Contato</a>
+
         </nav>
     </div>
+
+    <h1>Entre em Contato</h1>
+    <form action="processar_formulario.php" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" name="sobrenome" required><br><br>
+
+        <label for="idade">Idade:</label>
+        <input type="text" id="idade" name="idade" required><br><br>
+
+        <label for="opcao">Sexo:</label>
+        <select id="opcao" name="opcao" required>
+            <option value="opcao0">--</option>
+            <option value="opcao1">Masculino</option>
+            <option value="opcao2">Feminino</option>
+            <option value="opcao3">Outro</option>
+        </select><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required><br><br>
+
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" required><br><br>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br><br>
+
+
+        <label for="radio">avaliação:</label><br>
+        <label for="radio1">
+            <input type="radio" id="radio1" name="radio" value="opcao1">WhatsApp
+        </label><br>
+
+        <label for="radio2">
+            <input type="radio" id="radio2" name="radio" value="opcao2">Email
+        </label><br>
+
+        <label for="radio3">
+            <input type="radio" id="radio3" name="radio" value="opcao3">SMS
+        </label><br><br>
+
+
+        <label for="radio">avaliação:</label><br>
+        <label for="radio1">
+            <input type="radio" id="radio1" name="radio" value="opcao1">Gostei
+            <img src="./img/avaliacao/avaliacao_img1.png">
+        </label><br>
+
+        <label for="radio2">
+            <input type="radio" id="radio2" name="radio" value="opcao2">Mais ou menos
+            <img src="./img/avaliacao/avaliacao_img2.png">
+        </label><br>
+
+        <label for="radio3">
+            <input type="radio" id="radio3" name="radio" value="opcao3">Não gostei
+            <img src="./img/avaliacao/avaliacao_img3.jpg">
+        </label><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
 
     <footer>
         <div class="rodape">
