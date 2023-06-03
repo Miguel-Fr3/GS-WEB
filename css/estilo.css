@@ -50,19 +50,21 @@ body{
 }
 .conteudo img{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
     margin: auto;
+    justify-content: center;
+    flex-direction: row;
+    width: 800px;
+    height: 500px;
 }
 .conteudo p{
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    font-size: 1.25rem;
 }
 .conteudo li{
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1.55rem;
     font-weight: bolder;
 }
 #htmlS{
@@ -71,6 +73,9 @@ body{
 }
 #htmlS:hover{
     color: #fbfbfb;
+}
+p.saiba {
+    font-size: 2rem;
 }
 .rodape {
     width: 100vw;
@@ -83,7 +88,8 @@ body{
 .rodape img{
     width: 10rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
 
 }
 
