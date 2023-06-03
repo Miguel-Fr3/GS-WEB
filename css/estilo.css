@@ -16,6 +16,7 @@ body{
     background-image: url('../img/header.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100vw;
 }
 .cabecalho img{
     width: 15rem;
@@ -41,4 +42,58 @@ body{
 }
 .navegacao a:hover{
     color: #fbfbfb;
+}
+.conteudo h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 2.50rem;
+}
+.conteudo img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.conteudo p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.conteudo li{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+#htmlS{
+    color: #00FFFF;
+    font-weight: bolder;
+}
+#htmlS:hover{
+    color: #fbfbfb;
+}
+.rodape {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: #fbfbfb;
+}
+.rodape img{
+    width: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.rodape p{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
 }
