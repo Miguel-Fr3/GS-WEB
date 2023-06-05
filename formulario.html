@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <title>Formulario</title>
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <img src="./img/mapped.png" alt="Logo Mapped">
+    </header>
+    <div id="nav-container">
+        <nav class="navegacao">
+            <a href="./index.html">Home</a>
+            <a href="./agricultura_sustentavel.html">Agricultura sustentável</a>
+            <a href="./cultivo_sustentavel.html">Cultivo sustentável</a>
+            <a href="./inteligencia_artificial.html">inteligência artificial</a>
+            <a href="./formulario.html" id="htmlS">Contato</a>
+
+        </nav>
+    </div>
+
+    <h1>Entre em Contato</h1>
+
+    <form action="processar_formulario.php" method="POST" class="form">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" name="sobrenome" required>
+
+        <label for="idade">Idade:</label>
+        <input type="text" id="idade" name="idade" required>
+
+        <div class="sexo">
+        <label for="opcao">Sexo:</label>
+        <select id="opcao" name="opcao" required>
+            <option value="opcao0">--</option>
+            <option value="opcao1">Masculino</option>
+            <option value="opcao2">Feminino</option>
+            <option value="opcao3">Outro</option>
+        </select>
+        </div>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" required>
+
+        <div class="msg">
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+        </div>
+
+        <div class="avaliacao">
+        <label for="radio" class="avalia">avaliação:</label>
+        <label for="radio1" class="avaliacao">
+            <input type="radio" id="radio1" name="radio" value="opcao1" class="avaliacao">Gostei
+        </label>
+
+        <label for="radio2" class="avaliacao">
+            <input type="radio" id="radio2" name="radio" value="opcao2" class="avaliacao">Mais ou menos
+        </label>
+
+        <label for="radio3" class="avaliacao">
+            <input type="radio" id="radio3" name="radio" value="opcao3" class="avaliacao">Não gostei
+        </label>
+    </div>
+    <div class="register">
+        <input type="submit" value="Enviar">
+    </div>
+    </form>
+
+
+    <footer>
+        <div class="rodape">
+            <img src="./img/mapped.png" alt="Logo Mapped">
+          <p>| Alberto Seiji Assato RM 99977 |
+            | Matheus Rodrigues de Oliveira RM 551997 |
+            | Miguel Francisco de Freitas Fernandes RM 99997 |
+            | Patrick de Lima Jaguski RM 551521| 
+            | Ye RM 552213 |</p>
+        </div>
+      </footer>
+    
+</body>
+
+</html>
