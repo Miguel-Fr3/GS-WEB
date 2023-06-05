@@ -1,0 +1,83 @@
+@import url(./agricultura.css);
+@import url(./form.css);
+@import url(./index.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    background-color: #87CEFA;
+    font-family: 'Roboto', sans-serif;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    background-image: url('../img/header.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+.cabecalho img{
+    width: 15rem;
+
+}
+#nav-container{
+    width: 100%;
+}
+.navegacao{
+    background-color: #00BFFF;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+.navegacao a{
+    text-decoration: none;
+    font-size: 1.50rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+.navegacao a:hover{
+    color: #fbfbfb;
+}
+
+#htmlS{
+    color: #00FFFF;
+    font-weight: bolder;
+}
+#htmlS:hover{
+    color: #fbfbfb;
+}
+
+.rodape {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: #fbfbfb;
+}
+.rodape img{
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rodape p{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
