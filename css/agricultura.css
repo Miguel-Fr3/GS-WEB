@@ -27,6 +27,8 @@
     font-weight: bolder;
 }
 p.saiba-agricultura {
-    text-decoration: none;
-    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 5px;
 }
