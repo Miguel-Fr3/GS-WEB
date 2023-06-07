@@ -1,4 +1,4 @@
-.topSection {
+.top-section {
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -6,27 +6,27 @@
     align-items: center;
 }
 
-.topSection>div {
+.top-section>div {
     display: flex;
     align-items: center;
     width: 80%;
     gap: 2rem;
 }
 
-.topSection>div>img,
-.topSection>div>p {
+.top-section>div>img,
+.top-section>div>p {
     display: flex;
     flex: 1;
 }
 
-.topSection>div>img {
+.top-section>div>img {
     width: 25rem;
     height: auto;
     border-radius: 5px;
     box-shadow: 0 2px 6px #000
 }
 
-.firstLine>p {
+.first-line>p {
     text-align: left;
     font-size: 1.25rem;
 }
