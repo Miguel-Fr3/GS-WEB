@@ -2,6 +2,7 @@
 @import url(./form.css);
 @import url(./index.css);
 @import url(./inteligencia.css);
+@import url(./cultivo.css);
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +10,7 @@
 }
 body{
     width: 100vw;
-    background-color: #87CEFA;
+    background-color: #7490af;
     font-family: 'Roboto', sans-serif;
 }
 .cabecalho{
@@ -30,7 +31,7 @@ body{
     width: 100%;
 }
 .navegacao{
-    background-color: #00BFFF;
+    background-color: #f1f0f3;
     display: flex;
     justify-content: space-around;
     width: 100vw;
@@ -49,7 +50,7 @@ body{
 }
 
 #htmlS{
-    color: #00FFFF;
+    color: #7490af;
     font-weight: bolder;
 }
 #htmlS:hover{
