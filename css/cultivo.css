@@ -1,4 +1,4 @@
-.top-section{
+.top-section {
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -13,7 +13,8 @@
     gap: 2rem;
 }
 
-.top-section>div>img, .top-section>div>p {
+.top-section>div>img,
+.top-section>div>p {
     display: flex;
     flex: 1;
 }
@@ -42,31 +43,53 @@
     align-items: center;
 }
 
-.conteudo-cultivo h1{
+.conteudo-cultivo h1 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 2.50rem;
     margin-top: 2rem;
 }
-.conteudo-cultivo img{
+
+.conteudo-cultivo img {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
     width: 800px;
-    height: 500px;
+    height: auto;
     margin-bottom: 10px;
     border-radius: 5px;
-    box-shadow: 0 2px 6px #000
+    max-width: 80%;
+    box-shadow: 0 2px 6px #000;
 }
-.conteudo-cultivo>p{
+
+.conteudo-cultivo>p {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 1.25rem;
 }
+
 p.saiba-cultivo {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 1.25rem;
     margin-bottom: 2rem;
+}
+
+@media (max-width:500px) {
+    .conteudo-cultivo h1 {
+        font-size: 2rem;
+    }
+
+    .first-line>p {
+        font-size: 1rem;
+    }
+
+    .second-line>p {
+        font-size: 1rem;
+    }
+
+    p.saiba-cultivo {
+        font-size: 1rem;
+    }
 }
