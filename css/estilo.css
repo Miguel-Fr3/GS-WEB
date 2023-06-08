@@ -57,7 +57,7 @@ ol li {
     font-size: 1.50rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: #000;
+    color: #191970;
     text-align: center;
 }
 
@@ -81,6 +81,7 @@ ol li {
     justify-content: center;
     background-color: #000;
     color: #fbfbfb;
+    height: 100%;
 }
 
 .rodape img {
