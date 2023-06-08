@@ -74,8 +74,9 @@ ol li::before {
     margin: auto;
     margin-bottom: 10px;
     width: 800px;
-    height: 500px;
+    height: auto;
     border-radius: 5px;
+    max-width: 80%;
     box-shadow: 0 2px 6px #000
 }
 
@@ -97,4 +98,26 @@ p.saiba-agricultura {
     text-align: center;
     font-size: 1.25rem;
     margin-bottom: 2rem;
+}
+
+@media (max-width:500px) {
+    .conteudo-agricultura h1 {
+        font-size: 2rem;
+    }
+
+    .conteudo-agricultura p {
+        font-size: 1rem
+    }
+
+    .first-line>p {
+        font-size: 1rem;
+    }
+
+    .texto ol li {
+        font-size: 1rem;
+    }
+
+    p.saiba-agricultura {
+        font-size: 1rem;
+    }
 }
