@@ -42,19 +42,19 @@ body{
     font-size: 1.50rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: #000;
+    color: #191970;
     text-align: center;
 }
 .navegacao a:hover{
-    color: #fbfbfb;
+    color: #B0E0E6;
 }
 
 #htmlS{
-    color: #7490af;
+    color: #00FFFF;
     font-weight: bolder;
 }
 #htmlS:hover{
-    color: #fbfbfb;
+    color: #B0E0E6;
 }
 
 .rodape {
@@ -64,6 +64,7 @@ body{
     justify-content: center;
     background-color: #000;
     color: #fbfbfb;
+    height: 100%;
 }
 .rodape img{
     width: 10rem;
