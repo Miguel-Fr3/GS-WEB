@@ -1,7 +1,52 @@
+.top-section{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-section>div {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    gap: 2rem;
+}
+
+.top-section>div>img, .top-section>div>p {
+    display: flex;
+    flex: 1;
+}
+
+.top-section>div>img {
+    width: 30rem;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px #000
+}
+
+.first-line p {
+    text-align: left;
+    font-size: 1.25rem;
+}
+
+.second-line p {
+    text-align: right;
+    font-size: 1.25rem;
+}
+
+.conteudo-cultivo {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
 .conteudo-cultivo h1{
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 2.50rem;
+    margin-top: 2rem;
 }
 .conteudo-cultivo img{
     display: flex;
@@ -14,7 +59,7 @@
     border-radius: 5px;
     box-shadow: 0 2px 6px #000
 }
-.conteudo-cultivo p{
+.conteudo-cultivo>p{
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 1.25rem;
@@ -23,5 +68,5 @@ p.saiba-cultivo {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 1.25rem;
-    margin-bottom: 5px;
+    margin-bottom: 2rem;
 }
